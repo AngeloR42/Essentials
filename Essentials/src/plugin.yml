@@ -1,11 +1,11 @@
 # This determines the command prefix when there are conflicts (/name:home, /name:help, etc.)
-name: Essentials
+name: ZXCommands
 main: com.earth2me.essentials.Essentials
 # Note to developers: This next line cannot change, or the automatic versioning system will break.
 version: TeamCity
 website: http://tiny.cc/EssentialsCommands
-description: Provides an essential, core set of commands for Bukkit.
-authors: [Zenexer, ementalo, Aelux, Brettflan, KimKandor, snowleo, ceulemans, Xeology, KHobbits, md_5, Iaccidentally]
+description: ZX Nation's Commands
+authors: [AngeloR42]
 commands:
   afk:
     description: Marks you as away-from-keyboard.
@@ -126,7 +126,7 @@ commands:
   gamemode:
     description: Change player gamemode.
     usage: /<command> <survival|creative|adventure> [player]
-    aliases: [adventure,eadventure,adventuremode,eadventuremode,creative,eecreative,creativemode,ecreativemode,egamemode,gm,egm,gma,egma,gmc,egmc,gms,egms,gmt,egmt,survival,esurvival,survivalmode,esurvivalmode]
+    aliases: [adventure,eadventure,adventuremode,eadventuremode,creative,eecreative,creativemode,ecreativemode,egamemode,gm,egm,gma,egma,gmc,egmc,gms,egms,gmt,egmt,survival,esurvival,survivalmode,esurvivalmode,gm0,gm1,gm2]
   gc:
     description: Reports memory, uptime and tick info.
     usage: /<command> [all]
@@ -194,7 +194,7 @@ commands:
   kick:
     description: Kicks a specified player with a reason.
     usage: /<command> <player> [reason]
-    aliases: [ekick]
+    aliases: [ekick,boot]
   kickall:
     description: Kicks all players off the server except the issuer.
     usage: /<command> [reason]
@@ -202,7 +202,7 @@ commands:
   kill:
     description: Kills specified player.
     usage: /<command> <player>
-    aliases: [ekill]
+    aliases: [ekill,slay]
   killall:
     description: Kill all mobs in a world.
     usage: /<command> [mobType] [radius] [world]
@@ -309,7 +309,7 @@ commands:
   rules:
     description: Views the server rules.
     usage: /<command>
-    aliases: [erules]
+    aliases: [erules,laws,law]
   seen:
     description: Shows the last logout time of a player.
     usage: /<command> <playername>
