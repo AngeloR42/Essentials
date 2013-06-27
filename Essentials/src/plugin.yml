@@ -1,11 +1,11 @@
 # This determines the command prefix when there are conflicts (/name:home, /name:help, etc.)
-name: Essentials
+name: ZXCommands
 main: com.earth2me.essentials.Essentials
 # Note to developers: This next line cannot change, or the automatic versioning system will break.
 version: TeamCity
 website: http://tiny.cc/EssentialsCommands
-description: Provides an essential, core set of commands for Bukkit.
-authors: [Zenexer, ementalo, Aelux, Brettflan, KimKandor, snowleo, ceulemans, Xeology, KHobbits, md_5, Iaccidentally]
+description: Provides commands for the ZX Nation Server.
+authors: [AngeloR42]
 commands:
   afk:
     description: Marks you as away-from-keyboard.
@@ -309,7 +309,7 @@ commands:
   rules:
     description: Views the server rules.
     usage: /<command>
-    aliases: [erules]
+    aliases: [erules,law,laws]
   seen:
     description: Shows the last logout time of a player.
     usage: /<command> <playername>
@@ -329,7 +329,7 @@ commands:
   setwarp:
     description: Creates a new warp.
     usage: /<command> <warp>
-    aliases: [createwarp,ecreatewarp,esetwarp]
+    aliases: [createwarp,ecreatewarp,esetwarp,createwarp]
   setworth:
     description: Set the sell value of an item.
     usage: /<command> [itemname|id] <price>
